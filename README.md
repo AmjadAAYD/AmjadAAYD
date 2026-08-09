@@ -2,9 +2,9 @@
 
 Data Science and AI engineering student.
 
-Two internships at OCP Group forecasting industrial SO<sub>2</sub> emissions, moving from a
-tabular model to a sequential one coupled with predictive control. What holds my attention:
-time series, NLP, and the engineering that actually keeps a model running.
+Two internships forecasting industrial SO<sub>2</sub> emissions, moving from a tabular model
+to a sequential one coupled with predictive control. What holds my attention: time series,
+NLP, and the engineering that actually keeps a model running.
 
 ---
 
