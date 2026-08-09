@@ -42,4 +42,4 @@ it had to beat, and the README says out loud where the method falls short.
 
 ---
 
-[LinkedIn](https://linkedin.com/in/amjad-aayd) · aaydamjad@gmail.com
+aaydamjad@gmail.com
