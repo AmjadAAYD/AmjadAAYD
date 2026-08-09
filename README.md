@@ -1,40 +1,43 @@
 # Amjad AAYD
 
-Étudiant ingénieur en **Data Science et Intelligence Artificielle** à l'EMSI Rabat (option IASD).
+Data Science and AI engineering student.
 
-Deux stages chez OCP Group sur la prévision des émissions industrielles de SO<sub>2</sub>, du
-modèle tabulaire au réseau séquentiel couplé à une commande prédictive. Ce qui m'intéresse :
-les séries temporelles, le NLP, et l'ingénierie qui fait réellement tourner les modèles.
+Two internships at OCP Group forecasting industrial SO<sub>2</sub> emissions, moving from a
+tabular model to a sequential one coupled with predictive control. What holds my attention:
+time series, NLP, and the engineering that actually keeps a model running.
 
 ---
 
-### Projets
+### Projects
 
-| Projet | Sujet | Résultat |
+| Project | What it does | Result |
 |---|---|---|
-| [spam-detection-nlp](https://github.com/AmjadAAYD/spam-detection-nlp) | Tri des e-mails, légitime ou spam | 99 % de classement correct sur 1 160 messages |
-| [sma-veille-technologique](https://github.com/AmjadAAYD/sma-veille-technologique) | Veille IA automatisée par agents LLM | Rapport quotidien en moins de 2 s, sans intervention |
-| [weather-data-pipeline](https://github.com/AmjadAAYD/weather-data-pipeline) | Pipeline météo, architecture médaillon | Chaîne automatisée, collecte au tableau de bord |
-| [pneumonia-detection-pytorch](https://github.com/AmjadAAYD/pneumonia-detection-pytorch) | Détection de pneumonie sur radiographies | 87,5 % sur 624 images (baseline 62,5 %) |
-| [arima-vs-lstm-forecasting](https://github.com/AmjadAAYD/arima-vs-lstm-forecasting) | Statistique contre apprentissage profond | Comparaison sur 43 848 relevés horaires |
+| [spam-detection-nlp](https://github.com/AmjadAAYD/spam-detection-nlp) | Sorts email into legitimate and spam | 99% correct on 1,160 test messages |
+| [sma-veille-technologique](https://github.com/AmjadAAYD/sma-veille-technologique) | Three LLM agents that read AI publications overnight and write the summary | Daily report in under 2s, no human in the loop |
+| [weather-data-pipeline](https://github.com/AmjadAAYD/weather-data-pipeline) | Medallion pipeline over 10 cities | Automated end to end, ingestion through dashboard |
+| [pneumonia-detection-pytorch](https://github.com/AmjadAAYD/pneumonia-detection-pytorch) | Spots pneumonia in chest X-rays | 87.5% on 624 images, against a 62.5% baseline |
+| [arima-vs-lstm-forecasting](https://github.com/AmjadAAYD/arima-vs-lstm-forecasting) | Classical statistics against deep learning | Compared on 43,848 hourly readings |
 
 ---
 
 ### Stack
 
 **Machine Learning** · Python, PyTorch, Scikit-Learn, XGBoost, Pandas, NumPy
-**NLP et IA générative** · LangGraph, RAG, Qdrant, Word2Vec, TF-IDF, n8n
+**NLP and generative AI** · LangGraph, RAG, Qdrant, Word2Vec, TF-IDF, n8n
 **Data Engineering** · Airflow, Docker, MinIO, Talend, Git
-**Données et BI** · MySQL, Oracle PL/SQL, MongoDB, Power BI
+**Data and BI** · MySQL, Oracle PL/SQL, MongoDB, Power BI
 
 ---
 
-### Une conviction
+### One conviction
 
-Un résultat sans sa baseline ne veut rien dire. Sur mes projets, chaque métrique est publiée
-avec le point de comparaison qu'elle doit battre, et les limites de la méthode sont écrites
-noir sur blanc dans le README.
+A result without its baseline means nothing.
+
+I learned this the hard way. An early version of the emissions model scored R<sup>2</sup> = 0.998
+and I was thrilled, until a "predict no change" baseline scored exactly the same. The model had
+learned autocorrelation, not the process. Everything I have published since carries the number
+it had to beat, and the README says out loud where the method falls short.
 
 ---
 
-[LinkedIn](https://linkedin.com/in/amjad-aayd) · aaydamjad@gmail.com · El-Jadida, Maroc
+[LinkedIn](https://linkedin.com/in/amjad-aayd) · aaydamjad@gmail.com
