@@ -22,10 +22,12 @@ NLP, and the engineering that actually keeps a model running.
 
 ### Stack
 
-**Machine Learning** · Python, PyTorch, Scikit-Learn, XGBoost, Pandas, NumPy
-**NLP and generative AI** · LangGraph, RAG, Qdrant, Word2Vec, TF-IDF, n8n
-**Data Engineering** · Airflow, Docker, MinIO, Talend, Git
-**Data and BI** · MySQL, Oracle PL/SQL, MongoDB, Power BI
+| | |
+|---|---|
+| **Machine Learning** | Python, PyTorch, Scikit-Learn, XGBoost, Pandas, NumPy |
+| **NLP and generative AI** | LangGraph, RAG, Qdrant, Word2Vec, TF-IDF, n8n |
+| **Data Engineering** | Airflow, Docker, MinIO, Talend, Git |
+| **Data and BI** | MySQL, Oracle PL/SQL, MongoDB, Power BI |
 
 ---
 
