@@ -6,7 +6,6 @@
 
 **Amjad** &nbsp;·&nbsp; Data science and AI engineering
 
-<img src="https://komarev.com/ghpvc/?username=AmjadAAYD&style=flat-square&color=FF8A5B&label=pulled+up" alt="views" />
 
 </div>
 
