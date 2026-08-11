@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=27&duration=3000&pause=800&color=FF8A5B&center=true&vCenter=true&width=700&lines=Welcome+to+my+Rep;Models+by+day%2C+protocols+by+night;Show+me+what+it+beat" alt="Welcome to my Rep" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=27&duration=3000&pause=800&color=FF8A5B&center=true&vCenter=true&width=700&lines=Welcome+to+my+Rep;Models+by+day%2C+protocols+by+night;If+it+has+a+baseline%2C+it+can+be+beaten" alt="Welcome to my Rep" />
 
 <br>
 
@@ -41,6 +41,47 @@ class Amjad:
         if model.score <= baseline.score:
             raise ValueError("you learned autocorrelation, not the process")
         return model, baseline          # both. always both.
+```
+
+---
+
+## Where I spend my time
+
+```mermaid
+graph LR
+    ME(("Amjad"))
+
+    ME --- ML["AI and Machine Learning"]
+    ML --- ML1["Time Series Forecasting"]
+    ML --- ML2["Model Evaluation"]
+    ML --- ML3["Computer Vision"]
+
+    ME --- NLP["NLP and LLM Agents"]
+    NLP --- N1["RAG and Vector Search"]
+    NLP --- N2["Multi Agent Systems"]
+    NLP --- N3["Text Classification"]
+
+    ME --- DE["Data Engineering"]
+    DE --- D1["Pipelines and Orchestration"]
+    DE --- D2["Docker and Object Storage"]
+    DE --- D3["SQL and Warehousing"]
+
+    ME --- RE["Reverse Engineering"]
+    RE --- R1["Bluetooth LE Protocols"]
+    RE --- R2["Packet Analysis"]
+    RE --- R3["Binary Inspection"]
+
+    classDef centre fill:#2C2624,stroke:#FF8A5B,stroke-width:3px,color:#F4F0EB
+    classDef ml fill:#3A2A20,stroke:#FF8A5B,stroke-width:2px,color:#FFD3BE
+    classDef nlp fill:#2A2438,stroke:#A98BE0,stroke-width:2px,color:#DCCEF5
+    classDef de fill:#1F2E2A,stroke:#86C08A,stroke-width:2px,color:#CFE8D1
+    classDef re fill:#33262B,stroke:#E5645E,stroke-width:2px,color:#F6CFCD
+
+    class ME centre
+    class ML,ML1,ML2,ML3 ml
+    class NLP,N1,N2,N3 nlp
+    class DE,D1,D2,D3 de
+    class RE,R1,R2,R3 re
 ```
 
 ---
