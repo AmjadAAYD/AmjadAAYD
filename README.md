@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=27&duration=3000&pause=800&color=FF8A5B&center=true&vCenter=true&width=680&lines=Welcome+to+my+Rep;Models+by+day%2C+protocols+by+night;Every+score+here+had+to+beat+something+first" alt="Welcome to my Rep" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=27&duration=3000&pause=800&color=FF8A5B&center=true&vCenter=true&width=700&lines=Welcome+to+my+Rep;Models+by+day%2C+protocols+by+night;Show+me+what+it+beat" alt="Welcome to my Rep" />
 
 <br>
 
@@ -24,10 +24,10 @@ engineer things nobody bothered to document.
 
 <div align="center">
 
-> *No score leaves here without the baseline it had to clear.*
-> *R squared nine-nine-eight had me ready to cheer,*
-> *till "predict no change" tied it, dead level, no fluke.*
-> *That wasn't a model. That was autocorrelation on the books.*
+> *Anyone can post a number and call it a win.*
+> *I show what it beat. That's where the work begins.*
+> *Every model looks like genius till you sit a dumb one down,*
+> *and the dumb one ties the score. So who's wearing the crown?*
 
 </div>
 
@@ -132,20 +132,22 @@ recovered the Bluetooth protocol, and wrote the tool that should have existed</t
 
 ## The Bar
 
-A baseline is just a bar. Something already in the room, doing the job, waiting to see
-if you can clear it.
+A baseline is a bar. Something already standing in the room, doing the job badly,
+waiting to see whether you can clear it.
 
-I found that out the hard way. The emissions model scored R<sup>2</sup> = 0.998 and I was
-ready to celebrate, right up until a baseline that only predicts "no change" scored the
-same. The model had not learned the process. It had learned that tomorrow looks like today.
+This field makes it easy to fool yourself. A model can look brilliant while it is only
+repeating the last value it saw. An accuracy can look strong until you notice one class
+is 90% of the data. A metric can climb while the thing you actually cared about goes
+nowhere. The only defence is to stand something stupid next to your work and check that
+you genuinely beat it.
 
-So now every number here comes with the number it had to beat, and every README says out
-loud where the method falls short. The gamepad project has an entire document on what the
-hardware **cannot** do, because knowing where the ceiling is beats pretending there isn't one.
+So every repo here carries what it was measured against, and says where the method
+breaks down. Not out of modesty. A number with nothing beside it isn't evidence, it's
+just a claim.
 
 <div align="center">
 
-**Set the bar. Clear it. Then tell people what it was.**
+**Anyone can post a number. Show me what it beat.**
 
 </div>
 
