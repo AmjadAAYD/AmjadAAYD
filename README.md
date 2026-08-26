@@ -44,47 +44,6 @@ class Amjad:
 
 ---
 
-## Where I spend my time
-
-```mermaid
-graph LR
-    ME(("Amjad"))
-
-    ME --- ML["AI and Machine Learning"]
-    ML --- ML1["Time Series Forecasting"]
-    ML --- ML2["Model Evaluation"]
-    ML --- ML3["Computer Vision"]
-
-    ME --- NLP["NLP and LLM Agents"]
-    NLP --- N1["RAG and Vector Search"]
-    NLP --- N2["Multi Agent Systems"]
-    NLP --- N3["Text Classification"]
-
-    ME --- DE["Data Engineering"]
-    DE --- D1["Pipelines and Orchestration"]
-    DE --- D2["Docker and Object Storage"]
-    DE --- D3["SQL and Warehousing"]
-
-    ME --- RE["Reverse Engineering"]
-    RE --- R1["Bluetooth LE Protocols"]
-    RE --- R2["Packet Analysis"]
-    RE --- R3["Binary Inspection"]
-
-    classDef centre fill:#2C2624,stroke:#FF8A5B,stroke-width:3px,color:#F4F0EB
-    classDef ml fill:#3A2A20,stroke:#FF8A5B,stroke-width:2px,color:#FFD3BE
-    classDef nlp fill:#2A2438,stroke:#A98BE0,stroke-width:2px,color:#DCCEF5
-    classDef de fill:#1F2E2A,stroke:#86C08A,stroke-width:2px,color:#CFE8D1
-    classDef re fill:#33262B,stroke:#E5645E,stroke-width:2px,color:#F6CFCD
-
-    class ME centre
-    class ML,ML1,ML2,ML3 ml
-    class NLP,N1,N2,N3 nlp
-    class DE,D1,D2,D3 de
-    class RE,R1,R2,R3 re
-```
-
----
-
 ## The work
 
 <table>
@@ -95,6 +54,13 @@ graph LR
 <td>My gamepad shipped with no PC software, so I decompiled the vendor app,
 recovered the Bluetooth protocol, and wrote the tool that should have existed</td>
 <td>Protocol documented from scratch. No prior public record of it exists</td></tr>
+
+<tr><td><a href="https://github.com/AmjadAAYD/exoplanet-transit-detection"><b>exoplanet-transit-detection</b></a><br>
+<sub>astronomy</sub></td>
+<td>Pulls raw light curves straight from NASA's MAST archive and runs a classical
+transit search, the same method astronomers use, then vets detections with a CNN</td>
+<td>Recovers TRAPPIST-1, Kepler-90 and Kepler-186's orbital periods from raw data,
+checked against the published catalog</td></tr>
 
 <tr><td><a href="https://github.com/AmjadAAYD/sma-veille-technologique"><b>sma-veille-technologique</b></a><br>
 <sub>LLM agents</sub></td>
