@@ -6,6 +6,11 @@
 
 **Amjad** &nbsp;·&nbsp; Data science and AI engineering
 
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=AmjadAAYD&label=Profile%20Views&color=FF8A5B&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/AmjadAAYD?label=Followers&color=blueviolet&style=for-the-badge)
+![x20ctl Stars](https://img.shields.io/github/stars/AmjadAAYD/x20ctl?label=x20ctl%20Stars&color=yellow&style=for-the-badge)
 
 </div>
 
@@ -95,24 +100,42 @@ checked against the published catalog</td></tr>
 
 <div align="center">
 
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,ts,js&theme=dark" />
+
 **Machine learning**
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn&theme=dark" />
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" />
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
+![statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=flat-square)
+
+**NLP and agents**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
 **Data engineering and infrastructure**
 
 <img src="https://skillicons.dev/icons?i=docker,postgres,mysql,mongodb,git,linux&theme=dark" />
 
-**Also in the bag**
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+**Frontend, from the exoplanet demo site**
+
+<img src="https://skillicons.dev/icons?i=astro,react&theme=dark" />
+
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
+
+**Reverse engineering and desktop**
+
 ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![Bluetooth LE](https://img.shields.io/badge/Bluetooth_LE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
 
@@ -124,7 +147,7 @@ checked against the published catalog</td></tr>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AmjadAAYD&theme=tokyonight" width="94%" />
+<img src="https://ghchart.rshah.org/FF8A5B/AmjadAAYD" width="94%" alt="daily contribution graph" />
 
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AmjadAAYD&theme=tokyonight" />
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AmjadAAYD&theme=tokyonight" />
