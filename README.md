@@ -147,8 +147,6 @@ checked against the published catalog</td></tr>
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/FF8A5B/AmjadAAYD" width="94%" alt="daily contribution graph" />
-
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AmjadAAYD&theme=tokyonight" />
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AmjadAAYD&theme=tokyonight" />
 
