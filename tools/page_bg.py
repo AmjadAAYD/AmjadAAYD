@@ -139,6 +139,5 @@ parts = [img("hero", "Amjad Aayd: data science, AI and hardware tooling"),
          img("work-h", "Selected work")] + [card(n) for n in projs] + \
         [img("stack-h", "Toolbox"), img("stack", "Python, PyTorch, scikit-learn, LangGraph, Airflow, Docker, C#, C++"),
          img("footer", "If it has a baseline, it can be beaten.")]
-md = '<p align="center">' + "".join(parts) + '</p>
-'
+md = '<p align="center">' + "".join(parts) + '</p>\n'
 open(f"{OUT}/README.md", "w", encoding="utf-8").write(md)
