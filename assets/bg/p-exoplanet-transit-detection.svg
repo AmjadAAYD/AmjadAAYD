@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200.72" width="500" height="200.72"><defs><linearGradient id="nv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1d45"/><stop offset="1" stop-color="#0b1d45"/></linearGradient></defs><path d="M0 0 H500 V200.71794871794873 H0 V0 Z" fill="#0b1d45"/><svg x="10" y="6" width="480" height="188.72" viewBox="0 0 468 184" role="img" aria-label="exoplanet-transit-detection">
+<style>.s{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+.bar{animation:b 5s ease-in-out infinite}@keyframes b{0%,100%{width:40px}50%{width:120px}}
+@media (prefers-reduced-motion:reduce){.bar{animation:none}}</style>
+<rect width="468" height="184" rx="12" fill="#0d1117"/>
+<text x="24" y="34" class="m" font-size="11" fill="#5eead4" letter-spacing="1.5">ASTRONOMY / ML</text>
+<text x="24" y="58" class="s" font-size="18" font-weight="700" fill="#e6edf3">exoplanet-transit-detection</text>
+<text x="24" y="74" class="s" font-size="13" fill="#8b949e">Finding real exoplanets in raw NASA light curves with a</text><text x="24" y="92" class="s" font-size="13" fill="#8b949e">classical BLS search, validated on TRAPPIST-1 and Kepler,</text><text x="24" y="110" class="s" font-size="13" fill="#8b949e">plus a CNN vetting step and a demo site.</text><rect x="24" y="140" width="62" height="22" rx="5" fill="#161b22" stroke="#30363d"/><text x="55" y="155" text-anchor="middle" class="m" font-size="11" fill="#c9d1d9">Python</text><rect x="94.4" y="140" width="40" height="22" rx="5" fill="#161b22" stroke="#30363d"/><text x="114" y="155" text-anchor="middle" class="m" font-size="11" fill="#c9d1d9">BLS</text><rect x="142.60000000000002" y="140" width="40" height="22" rx="5" fill="#161b22" stroke="#30363d"/><text x="163" y="155" text-anchor="middle" class="m" font-size="11" fill="#c9d1d9">CNN</text>
+<rect x="24" y="174" width="40" height="2" rx="1" fill="#5eead4" class="bar"/>
+<rect x=".5" y=".5" width="467" height="183" rx="12" fill="none" stroke="#30363d"/></svg></svg>
