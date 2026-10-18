@@ -139,5 +139,6 @@ parts = [img("hero", "Amjad Aayd: data science, AI and hardware tooling"),
          img("work-h", "Selected work")] + [card(n) for n in projs] + \
         [img("stack-h", "Toolbox"), img("stack", "Python, PyTorch, scikit-learn, LangGraph, Airflow, Docker, C#, C++"),
          img("footer", "If it has a baseline, it can be beaten.")]
-md = '<p align="center">' + "".join(parts) + '</p>\n\n<p align="center">\n  <img src="https://hits.sh/github.com/AmjadAAYD/profile.svg?style=for-the-badge&amp;label=profile%20views&amp;color=5eead4&amp;labelColor=0b1d45" alt="Profile views">\n</p>\n'
+md = '<p align="center">' + "".join(parts) + '</p>
+'
 open(f"{OUT}/README.md", "w", encoding="utf-8").write(md)
