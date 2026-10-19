@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 24" width="960" height="24" role="presentation">
-  <style>
-    .dot{animation:run 8s ease-in-out infinite alternate}
-    @keyframes run{from{transform:translateX(0)}to{transform:translateX(930px)}}
-    @media (prefers-reduced-motion:reduce){.dot{animation:none}}
-  </style>
-  <line x1="0" y1="12" x2="960" y2="12" stroke="#30363d" stroke-width="1"/>
-  <circle cx="15" cy="12" r="3" fill="#5eead4" class="dot"/>
-</svg>
