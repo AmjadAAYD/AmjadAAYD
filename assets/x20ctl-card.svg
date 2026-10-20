@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-label="X20CTL — open configuration library for EasySMX X20 controllers">
+  <style>
+    .sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+    .led{animation:led 2.4s ease-in-out infinite}
+    .l2{animation-delay:.3s}.l3{animation-delay:.6s}.l4{animation-delay:.9s}
+    @keyframes led{0%,100%{opacity:.25}50%{opacity:1}}
+    .stickA{animation:sa 5s ease-in-out infinite}
+    .stickB{animation:sb 6.5s ease-in-out infinite}
+    @keyframes sa{0%,100%{transform:translate(0,0)}25%{transform:translate(9px,-6px)}50%{transform:translate(-7px,5px)}75%{transform:translate(4px,8px)}}
+    @keyframes sb{0%,100%{transform:translate(0,0)}30%{transform:translate(-8px,-7px)}60%{transform:translate(6px,4px)}}
+    .trig1{transform-box:fill-box;transform-origin:left center;animation:t1 3.6s ease-in-out infinite}
+    .trig2{transform-box:fill-box;transform-origin:left center;animation:t2 4.4s ease-in-out infinite}
+    @keyframes t1{0%,100%{transform:scaleX(.15)}50%{transform:scaleX(.9)}}
+    @keyframes t2{0%,100%{transform:scaleX(.7)}50%{transform:scaleX(.1)}}
+    .wave{stroke-dasharray:6 8;animation:flow 1.6s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-28}}
+    @media (prefers-reduced-motion:reduce){.led,.stickA,.stickB,.trig1,.trig2,.wave{animation:none}}
+  </style>
+  <clipPath id="c"><rect width="960" height="300" rx="12"/></clipPath>
+  <g clip-path="url(#c)">
+    <rect width="960" height="300" fill="#0d1117"/>
+
+    <!-- left: identity -->
+    <text x="48" y="64" class="mono" font-size="12" fill="#5eead4" letter-spacing="2">FEATURED</text>
+    <text x="48" y="112" class="sans" font-size="44" font-weight="700" fill="#e6edf3" letter-spacing="-1">X20CTL</text>
+    <text x="48" y="146" class="sans" font-size="18" fill="#8b949e">Open configuration library for the EasySMX X20</text>
+    <text x="48" y="170" class="sans" font-size="18" fill="#8b949e">and other KeyLinker-protocol controllers.</text>
+
+    <g class="mono" font-size="12" fill="#c9d1d9"><rect x="48" y="206" width="40" height="26" rx="5" fill="#161b22" stroke="#30363d"/><text x="68" y="223" text-anchor="middle">C#</text><rect x="96" y="206" width="68" height="26" rx="5" fill="#161b22" stroke="#30363d"/><text x="130" y="223" text-anchor="middle">Python</text><rect x="172" y="206" width="52" height="26" rx="5" fill="#161b22" stroke="#30363d"/><text x="198" y="223" text-anchor="middle">C++</text><rect x="232" y="206" width="48" height="26" rx="5" fill="#161b22" stroke="#30363d"/><text x="256" y="223" text-anchor="middle">HID</text><rect x="288" y="206" width="84" height="26" rx="5" fill="#161b22" stroke="#30363d"/><text x="330" y="223" text-anchor="middle">Windows</text></g>
+    <text x="48" y="262" class="mono" font-size="12" fill="#7d8590">GPL-3.0  ·  v4.0.1  ·  9 stars</text>
+
+    <!-- right: diagnostic panel -->
+    <rect x="508" y="36" width="404" height="228" rx="10" fill="#010409" stroke="#30363d"/>
+    <text x="528" y="62" class="mono" font-size="11" fill="#7d8590" letter-spacing="1.5">X20CTL / DEVICE</text>
+    <circle cx="880" cy="58" r="4" fill="#5eead4" class="led"/>
+    <text x="868" y="62" text-anchor="end" class="mono" font-size="11" fill="#5eead4">LIVE</text>
+    <line x1="508" y1="76" x2="912" y2="76" stroke="#21262d"/>
+
+    <g class="mono" font-size="11" fill="#7d8590" letter-spacing="1">
+      <text x="528" y="100">HID</text>
+      <text x="528" y="128">INPUT</text>
+      <text x="528" y="164">STICKS</text>
+      <text x="528" y="212">TRIGGERS</text>
+      <text x="528" y="240">REPORT</text>
+    </g>
+
+    <text x="620" y="100" class="mono" font-size="11" fill="#c9d1d9">CONNECTED</text>
+
+    <g fill="#5eead4">
+      <circle cx="626" cy="124" r="5" class="led"/>
+      <circle cx="646" cy="124" r="5" class="led l2"/>
+      <circle cx="666" cy="124" r="5" class="led l3"/>
+      <circle cx="686" cy="124" r="5" class="led l4"/>
+    </g>
+
+    <g>
+      <circle cx="650" cy="170" r="22" fill="none" stroke="#30363d"/>
+      <circle cx="650" cy="170" r="3" fill="#30363d"/>
+      <circle cx="650" cy="170" r="6" fill="#5eead4" class="stickA"/>
+      <circle cx="750" cy="170" r="22" fill="none" stroke="#30363d"/>
+      <circle cx="750" cy="170" r="3" fill="#30363d"/>
+      <circle cx="750" cy="170" r="6" fill="#5eead4" class="stickB"/>
+    </g>
+
+    <g>
+      <rect x="620" y="203" width="200" height="6" rx="3" fill="#161b22"/>
+      <rect x="620" y="203" width="200" height="6" rx="3" fill="#5eead4" class="trig1"/>
+      <rect x="620" y="217" width="200" height="6" rx="3" fill="#161b22"/>
+      <rect x="620" y="217" width="200" height="6" rx="3" fill="#5eead4" class="trig2"/>
+    </g>
+
+    <text x="912" y="288" text-anchor="end" class="mono" font-size="11" fill="#5eead4" letter-spacing="1.5">VIEW ON GITHUB &#8594;</text><line x1="620" y1="236" x2="890" y2="236" stroke="#5eead4" stroke-width="2" class="wave"/>
+  </g>
+  <rect x=".5" y=".5" width="959" height="299" rx="12" fill="none" stroke="#30363d"/>
+</svg>
